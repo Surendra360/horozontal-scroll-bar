@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+body>h1{
+    margin: 50px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+
+}
+.container{
+    width: 50vw;
+    height: 50vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding: 1%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 3px solid black;
+    position: relative;
+}
+.container::-webkit-progress-bar{
+    display:none;
+}
+.box{
+    height: 100%;
+    width: 35vw;
+    margin-right: 20px;
+    display: inline-block;
+    box-shadow: 0 0 5px black;
+    
+}
+.b1{
+    background-image: url(https://cdn.hero.page/pfp/e81f1f48-5dd7-4682-8798-b5d3b5cd4069-mysterious-gentleman-anime-guy-pfp-styles-1.png);
+    background-position: center;
+    background-size: cover;
+}
+.b2{
+    background-image: url(https://i.pinimg.com/originals/6b/29/3e/6b293ef0b92aeb1c7f7bcaac1b2b7151.gif);
+    background-position: center;
+    background-size: cover;
+}
+.b3{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.b4{
+    background-image: url(https://img.wattpad.com/f242d50d2bb1fe37755812b42535b45a48852f09/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4270504e77534636763856736f513d3d2d3530343631383139362e313466653235653366613033323065333833353833313831373338302e676966);
+    background-position: center;
+    background-size: cover;
+}
+.b5{
+    background-image: url(https://img.wattpad.com/26052d3102a4875133cb13117db444b63b4d7273/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6f686753726834656a556a7156773d3d2d3530343539393336372e313466653232623463373330303939623334303939363432303533322e676966);
+    background-position: center;
+    background-size: cover;
+}
+
